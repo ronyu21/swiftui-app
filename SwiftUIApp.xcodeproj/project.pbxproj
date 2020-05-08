@@ -13,8 +13,6 @@
 		A9498567246221EC0071E2E1 /* NotificationCenterExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9498566246221EC0071E2E1 /* NotificationCenterExample.swift */; };
 		A9498570246342880071E2E1 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A949856F246342880071E2E1 /* Store.swift */; };
 		A9498572246342B60071E2E1 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9498571246342B60071E2E1 /* AppState.swift */; };
-		A9498574246342C00071E2E1 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9498573246342C00071E2E1 /* AppStore.swift */; };
-		A9498576246345630071E2E1 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9498575246345630071E2E1 /* CounterReducer.swift */; };
 		A9498578246346F30071E2E1 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9498577246346F30071E2E1 /* Reducer.swift */; };
 		A949857A246347600071E2E1 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9498579246347600071E2E1 /* Enumerations.swift */; };
 		A949857C2463477B0071E2E1 /* ReducerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A949857B2463477B0071E2E1 /* ReducerExtension.swift */; };
@@ -42,8 +40,6 @@
 		A9498566246221EC0071E2E1 /* NotificationCenterExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterExample.swift; sourceTree = "<group>"; };
 		A949856F246342880071E2E1 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		A9498571246342B60071E2E1 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		A9498573246342C00071E2E1 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
-		A9498575246345630071E2E1 /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
 		A9498577246346F30071E2E1 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 		A9498579246347600071E2E1 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
 		A949857B2463477B0071E2E1 /* ReducerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducerExtension.swift; sourceTree = "<group>"; };
@@ -87,8 +83,6 @@
 		A949856E246342700071E2E1 /* Redux */ = {
 			isa = PBXGroup;
 			children = (
-				A9498573246342C00071E2E1 /* AppStore.swift */,
-				A9498575246345630071E2E1 /* CounterReducer.swift */,
 				A949856F246342880071E2E1 /* Store.swift */,
 				A9498577246346F30071E2E1 /* Reducer.swift */,
 				A9498571246342B60071E2E1 /* AppState.swift */,
@@ -234,7 +228,6 @@
 				A96AE243246128E200317192 /* PageViewHost.swift in Sources */,
 				A96AE23D246123FB00317192 /* PageViewController.swift in Sources */,
 				A96AE2182460DCC600317192 /* AppDelegate.swift in Sources */,
-				A9498574246342C00071E2E1 /* AppStore.swift in Sources */,
 				A96AE21A2460DCC600317192 /* SceneDelegate.swift in Sources */,
 				A9498570246342880071E2E1 /* Store.swift in Sources */,
 				A9498578246346F30071E2E1 /* Reducer.swift in Sources */,
@@ -242,7 +235,6 @@
 				A949857A246347600071E2E1 /* Enumerations.swift in Sources */,
 				A9498572246342B60071E2E1 /* AppState.swift in Sources */,
 				A96AE21F2460DCC600317192 /* ContentView.swift in Sources */,
-				A9498576246345630071E2E1 /* CounterReducer.swift in Sources */,
 				A949857C2463477B0071E2E1 /* ReducerExtension.swift in Sources */,
 				A949857E24634FBA0071E2E1 /* ReduxCounterExample.swift in Sources */,
 				A936F3A8246137820018CFCB /* QrCodeGeneratorView.swift in Sources */,

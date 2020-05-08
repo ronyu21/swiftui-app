@@ -9,20 +9,9 @@ import Foundation
 
 
 enum AppAction {
-//    case chatList(ChatListAction)
-//    case chatDetail(ChatDetailAction)
     case counter(CounterAction)
     case message(MessageAction)
 }
-
-//enum ChatListAction {
-//    case reload
-//}
-//
-//enum ChatDetailAction {
-//    case reload
-//    case add(String, to: Chat)
-//}
 
 enum CounterAction{
     case get

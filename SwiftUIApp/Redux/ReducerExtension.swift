@@ -51,7 +51,6 @@ extension Reducer where State == AppState, Action == AppAction {
             case .counter(let action):
                 handleCounterAction(action, counterService: counterService)
             case .message(let action):
-//                state.message = handleMessageAction(action)
                 return Reducer.sync { (state) in
                     print("Sync")
                     state.message = handleMessageAction(state, action)
