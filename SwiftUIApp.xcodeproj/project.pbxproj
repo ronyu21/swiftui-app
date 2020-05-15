@@ -35,6 +35,7 @@
 		A96AE23D246123FB00317192 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AE23C246123FB00317192 /* PageViewController.swift */; };
 		A96AE23F246124CA00317192 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AE23E246124CA00317192 /* PageView.swift */; };
 		A96AE243246128E200317192 /* PageViewHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AE242246128E200317192 /* PageViewHost.swift */; };
+		A981C695246E50DF00A91004 /* CombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A981C694246E50DF00A91004 /* CombineTests.swift */; };
 		A9BE86502465DA6900D1B2CC /* Mockingbird in Frameworks */ = {isa = PBXBuildFile; productRef = A9BE864F2465DA6900D1B2CC /* Mockingbird */; };
 		A9BE86522465EA8E00D1B2CC /* NotificationMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BE86512465EA8E00D1B2CC /* NotificationMock.swift */; };
 		A9BE86572465F76900D1B2CC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A9BE86562465F76900D1B2CC /* Alamofire */; };
@@ -87,6 +88,7 @@
 		A96AE23C246123FB00317192 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		A96AE23E246124CA00317192 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		A96AE242246128E200317192 /* PageViewHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewHost.swift; sourceTree = "<group>"; };
+		A981C694246E50DF00A91004 /* CombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTests.swift; sourceTree = "<group>"; };
 		A9BE86512465EA8E00D1B2CC /* NotificationMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 				A949859D2465D5F40071E2E1 /* Info.plist */,
 				A94985AB2465D73A0071E2E1 /* MockingBirdTest.swift */,
 				A9BE86512465EA8E00D1B2CC /* NotificationMock.swift */,
+				A981C694246E50DF00A91004 /* CombineTests.swift */,
 			);
 			path = SwiftUIAppTests;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 		A96AE2162460DCC600317192 /* SwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				A981C693246E4E5800A91004 /* Combine */,
 				A93D7BBA24666D5A00EB008A /* DI */,
 				A94985A62465D6EA0071E2E1 /* MockingBirdFramework */,
 				A949856E246342700071E2E1 /* Redux */,
@@ -229,6 +233,13 @@
 				A96AE2312460E11F00317192 /* ImagePickerExampleView.swift */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		A981C693246E4E5800A91004 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		F9C4639A17E3E536E489AA4B /* Generated Mocks */ = {
@@ -395,6 +406,7 @@
 				A949859C2465D5F40071E2E1 /* SwiftUIAppTests.swift in Sources */,
 				A94985AC2465D73A0071E2E1 /* MockingBirdTest.swift in Sources */,
 				A9BE86522465EA8E00D1B2CC /* NotificationMock.swift in Sources */,
+				A981C695246E50DF00A91004 /* CombineTests.swift in Sources */,
 				58BBF60DBE2DA0D9B78576DA /* SwiftUIAppTests-SwiftUIAppMocks.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
