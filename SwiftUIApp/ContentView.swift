@@ -35,6 +35,8 @@ struct ContentView: View {
                 NavigationLink("Custom Container", destination: CustomContainer())
                 
                 NavigationLink("View Communication", destination: ViewCommunications())
+                
+                NavigationLink("Combine", destination: CombineExamples())
             }
             .navigationBarTitle(NSLocalizedString("Examples", comment:"examples"))
         }
