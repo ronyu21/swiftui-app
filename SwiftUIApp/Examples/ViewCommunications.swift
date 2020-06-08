@@ -17,7 +17,11 @@ struct ViewCommunications: View {
          + From child to direct parent – use @Binding and callbacks.
          + From child to distant parent – use PreferenceKey.
          + Between children – lift the state up.
+         
+         Reference: https://www.vadimbulavin.com/passing-data-between-swiftui-views/
          */
+        
+        
         
         List{
             NavigationLink("Parent To Distant Child by Environemnt", destination: ViewCommEnvironment())
