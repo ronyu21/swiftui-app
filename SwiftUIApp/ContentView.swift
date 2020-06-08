@@ -31,6 +31,10 @@ struct ContentView: View {
                 NavigationLink("Notification Center", destination: NotificationCenterExample())
                 
                 NavigationLink("Redux Counter", destination: ReduxCounterExample())
+                
+                NavigationLink("Custom Container", destination: CustomContainer())
+                
+                NavigationLink("View Communication", destination: ViewCommunications())
             }
             .navigationBarTitle(NSLocalizedString("Examples", comment:"examples"))
         }
