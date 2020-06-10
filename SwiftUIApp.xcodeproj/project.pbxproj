@@ -14,6 +14,7 @@
 		A90E81CE248DF3310048AAA9 /* ViewCommPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E81CD248DF3310048AAA9 /* ViewCommPreferenceKey.swift */; };
 		A90E81D0248DFF670048AAA9 /* UrlSessionDataTaskPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E81CF248DFF670048AAA9 /* UrlSessionDataTaskPublisher.swift */; };
 		A90E81D2248E01040048AAA9 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E81D1248E01040048AAA9 /* SwiftUIView.swift */; };
+		A90E81D7248E04130048AAA9 /* KeyboardAvoidanceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E81D6248E04130048AAA9 /* KeyboardAvoidanceExample.swift */; };
 		A936F3A52461308D0018CFCB /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936F3A42461308D0018CFCB /* PageControl.swift */; };
 		A936F3A8246137820018CFCB /* QrCodeGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936F3A7246137820018CFCB /* QrCodeGeneratorView.swift */; };
 		A93D7BBC24666D7E00EB008A /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93D7BBB24666D7E00EB008A /* Assembler.swift */; };
@@ -42,6 +43,7 @@
 		A96AE23F246124CA00317192 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AE23E246124CA00317192 /* PageView.swift */; };
 		A96AE243246128E200317192 /* PageViewHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AE242246128E200317192 /* PageViewHost.swift */; };
 		A981C695246E50DF00A91004 /* CombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A981C694246E50DF00A91004 /* CombineTests.swift */; };
+		A9A55CE424909EC700DAF513 /* KeyboardAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A55CE324909EC700DAF513 /* KeyboardAdaptive.swift */; };
 		A9BE86502465DA6900D1B2CC /* Mockingbird in Frameworks */ = {isa = PBXBuildFile; productRef = A9BE864F2465DA6900D1B2CC /* Mockingbird */; };
 		A9BE86522465EA8E00D1B2CC /* NotificationMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BE86512465EA8E00D1B2CC /* NotificationMock.swift */; };
 		A9BE86572465F76900D1B2CC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A9BE86562465F76900D1B2CC /* Alamofire */; };
@@ -67,6 +69,7 @@
 		A90E81CD248DF3310048AAA9 /* ViewCommPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCommPreferenceKey.swift; sourceTree = "<group>"; };
 		A90E81CF248DFF670048AAA9 /* UrlSessionDataTaskPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionDataTaskPublisher.swift; sourceTree = "<group>"; };
 		A90E81D1248E01040048AAA9 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A90E81D6248E04130048AAA9 /* KeyboardAvoidanceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidanceExample.swift; sourceTree = "<group>"; };
 		A936F3A42461308D0018CFCB /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		A936F3A7246137820018CFCB /* QrCodeGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeGeneratorView.swift; sourceTree = "<group>"; };
 		A93D7BBB24666D7E00EB008A /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 		A96AE23E246124CA00317192 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		A96AE242246128E200317192 /* PageViewHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewHost.swift; sourceTree = "<group>"; };
 		A981C694246E50DF00A91004 /* CombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTests.swift; sourceTree = "<group>"; };
+		A9A55CE324909EC700DAF513 /* KeyboardAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdaptive.swift; sourceTree = "<group>"; };
 		A9BE86512465EA8E00D1B2CC /* NotificationMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +130,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A90E81D5248E04000048AAA9 /* KeyboardAvoidance */ = {
+			isa = PBXGroup;
+			children = (
+				A90E81D6248E04130048AAA9 /* KeyboardAvoidanceExample.swift */,
+				A9A55CE324909EC700DAF513 /* KeyboardAdaptive.swift */,
+			);
+			path = KeyboardAvoidance;
+			sourceTree = "<group>";
+		};
 		A936F3A6246137510018CFCB /* Examples */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +224,7 @@
 		A96AE2162460DCC600317192 /* SwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				A90E81D5248E04000048AAA9 /* KeyboardAvoidance */,
 				A981C693246E4E5800A91004 /* Combine */,
 				A93D7BBA24666D5A00EB008A /* DI */,
 				A94985A62465D6EA0071E2E1 /* MockingBirdFramework */,
@@ -441,11 +455,13 @@
 				A94985AA2465D71C0071E2E1 /* Tree.swift in Sources */,
 				A94985A82465D7090071E2E1 /* Bird.swift in Sources */,
 				A96AE2182460DCC600317192 /* AppDelegate.swift in Sources */,
+				A90E81D7248E04130048AAA9 /* KeyboardAvoidanceExample.swift in Sources */,
 				A96AE21A2460DCC600317192 /* SceneDelegate.swift in Sources */,
 				A9498570246342880071E2E1 /* Store.swift in Sources */,
 				A9498578246346F30071E2E1 /* Reducer.swift in Sources */,
 				A90E81D2248E01040048AAA9 /* SwiftUIView.swift in Sources */,
 				A96AE23B2461239100317192 /* ImagePicker.swift in Sources */,
+				A9A55CE424909EC700DAF513 /* KeyboardAdaptive.swift in Sources */,
 				A905F0922480363000C28AED /* CustomContainer.swift in Sources */,
 				A949857A246347600071E2E1 /* Enumerations.swift in Sources */,
 				A9498572246342B60071E2E1 /* AppState.swift in Sources */,
