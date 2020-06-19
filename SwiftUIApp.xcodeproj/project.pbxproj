@@ -44,11 +44,13 @@
 		A96AE243246128E200317192 /* PageViewHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AE242246128E200317192 /* PageViewHost.swift */; };
 		A981C695246E50DF00A91004 /* CombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A981C694246E50DF00A91004 /* CombineTests.swift */; };
 		A9A55CE424909EC700DAF513 /* KeyboardAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A55CE324909EC700DAF513 /* KeyboardAdaptive.swift */; };
+		A9A55CE72490A83200DAF513 /* AdvanceUserDefaultsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A55CE62490A83200DAF513 /* AdvanceUserDefaultsExample.swift */; };
 		A9BE86502465DA6900D1B2CC /* Mockingbird in Frameworks */ = {isa = PBXBuildFile; productRef = A9BE864F2465DA6900D1B2CC /* Mockingbird */; };
 		A9BE86522465EA8E00D1B2CC /* NotificationMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BE86512465EA8E00D1B2CC /* NotificationMock.swift */; };
 		A9BE86572465F76900D1B2CC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A9BE86562465F76900D1B2CC /* Alamofire */; };
 		A9BE865A2465F78800D1B2CC /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = A9BE86592465F78800D1B2CC /* SwiftyJSON */; };
 		A9BE865D2465F7CF00D1B2CC /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9BE865C2465F7CF00D1B2CC /* KeychainSwift */; };
+		A9EE4472249C3EE80097E681 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE4471249C3EE80097E681 /* UserDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,7 +107,9 @@
 		A96AE242246128E200317192 /* PageViewHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewHost.swift; sourceTree = "<group>"; };
 		A981C694246E50DF00A91004 /* CombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTests.swift; sourceTree = "<group>"; };
 		A9A55CE324909EC700DAF513 /* KeyboardAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdaptive.swift; sourceTree = "<group>"; };
+		A9A55CE62490A83200DAF513 /* AdvanceUserDefaultsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceUserDefaultsExample.swift; sourceTree = "<group>"; };
 		A9BE86512465EA8E00D1B2CC /* NotificationMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMock.swift; sourceTree = "<group>"; };
+		A9EE4471249C3EE80097E681 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,7 @@
 		A96AE2162460DCC600317192 /* SwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9A55CE52490A81200DAF513 /* UserDefaults */,
 				A90E81D5248E04000048AAA9 /* KeyboardAvoidance */,
 				A981C693246E4E5800A91004 /* Combine */,
 				A93D7BBA24666D5A00EB008A /* DI */,
@@ -272,6 +277,15 @@
 				A90E81D1248E01040048AAA9 /* SwiftUIView.swift */,
 			);
 			path = Combine;
+			sourceTree = "<group>";
+		};
+		A9A55CE52490A81200DAF513 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				A9A55CE62490A83200DAF513 /* AdvanceUserDefaultsExample.swift */,
+				A9EE4471249C3EE80097E681 /* UserDefault.swift */,
+			);
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 		F9C4639A17E3E536E489AA4B /* Generated Mocks */ = {
@@ -458,9 +472,11 @@
 				A90E81D7248E04130048AAA9 /* KeyboardAvoidanceExample.swift in Sources */,
 				A96AE21A2460DCC600317192 /* SceneDelegate.swift in Sources */,
 				A9498570246342880071E2E1 /* Store.swift in Sources */,
+				A9EE4472249C3EE80097E681 /* UserDefault.swift in Sources */,
 				A9498578246346F30071E2E1 /* Reducer.swift in Sources */,
 				A90E81D2248E01040048AAA9 /* SwiftUIView.swift in Sources */,
 				A96AE23B2461239100317192 /* ImagePicker.swift in Sources */,
+				A9A55CE72490A83200DAF513 /* AdvanceUserDefaultsExample.swift in Sources */,
 				A9A55CE424909EC700DAF513 /* KeyboardAdaptive.swift in Sources */,
 				A905F0922480363000C28AED /* CustomContainer.swift in Sources */,
 				A949857A246347600071E2E1 /* Enumerations.swift in Sources */,

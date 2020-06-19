@@ -39,6 +39,8 @@ struct ContentView: View {
                 NavigationLink("Combine", destination: CombineExamples())
                 
                 NavigationLink("Keyboard Avoidance", destination: KeyboardAvoidanceExample())
+                
+                NavigationLink("Advanced UserDefaults", destination: AdvanceUserDefaultsExample())
             }
             .navigationBarTitle(NSLocalizedString("Examples", comment:"examples"))
         }
